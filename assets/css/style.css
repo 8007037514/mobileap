@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ....................hero-Img sec....................... */
+
+
+
+.hero-Img{
+    background-image: linear-gradient(rgb(218, 45, 51, 0.5), rgb(218, 45, 51, 0.5)), url(../images/hero-img.jpg);
+    
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+  
+}
+
+.logo{
+        margin-top: 40px;  
+    
+}
+
+.logo h1{
+    font-size: 52px;
+    color: #fff;
+    margin-top: 160px;
+    margin-bottom: 60px;
+}
+
+
+
+.logo p{
+    font-size: 36px;
+    color: #f6e8e7;
+    margin-bottom: 50px;
+}
+
+.btn{
+ padding: 15px;
+ border-radius: 20px;
+ margin-left: 5px;
+ background-color: #282828;
+ color: #fff;
+ margin-bottom: 70px;
+
+}
+
+.btn i{
+    font-size: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+    
+}
+
+.btn:hover{
+    background-color: #ff6666;
+    border: 4px solid #fff;
+}
+nav ul li{
+    position: relative;
+}
+nav ul li{
+    display: inline-block;
+   margin-left: 10px;
+    font-size: 16px;
+    padding-top: 45px;
+}
+ nav ul li a{
+    display:inline-block;
+    padding: 5px 0;
+    color: white;
+    margin: 0 10px; 
+    font-size: 20px;
+
+ }
+
+ nav ul li a::after{
+   content: "";
+    width: 0%;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 0.7s;
+
+}
+nav ul li a:hover::after{
+  width: 100%;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+/* .........................Features-sec.................... */
+
+.Features{
+    background-color: #fff;
+    margin-top: 90px;
+}
+
+.Features h1{
+    color: #333;
+    margin-bottom: 40px;
+    font-size: 52px;
+   
+   
+}
+
+.Features p{
+    color: #ccc;
+    margin-bottom: 70px;
+    font-size: 18px;
+}
+
+.Features img{
+    margin-bottom: 40px;
+}
+
+.Features h5{
+    font-size: 24px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+
+/* ........................chocklet-sec.......................... */
+
+
+.Chocklet-Sec{
+    
+    background-image: url(../images/Joker-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    
+ 
+}
+
+.Chocklet-Sec h1{
+    font-size: 52px;
+    color: #ff6666;
+    text-transform: uppercase;
+    margin-top: 200px;
+}
+
+.Chocklet-Sec p{
+    font-size: 30px;
+    color: #666;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+span{
+    color: #fff
+}
+
+.sumbit-btn{
+    background-color: #fff;
+    color: #cc3333;
+    border: 4px solid brown;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 170px;
+    width: 160px;
+    height: 50px;
+}
+
+.sumbit-btn:hover{
+    background-color: #cc3333;
+    color: #fff;
+    border: 4px solid #fff
+}
+
+
+
+/* .....................footer-sec..................... */
+
+
+.footer{
+    background-color: #333;
+    font-size: 52px;
+    color: #fff;
+}
+
+.footer img{
+    margin: 120px 0px  70px;
+}
+
+
+.orange{
+    width: 50px;
+    height: 50px;
+    background-color: #cc3333;
+}
+
+.footer h6{
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.footer ul li{
+    font-size: 20px;
+    color: #999;
+}
+
+
+.footer-lists ul li{
+    color: #999;
+}
+
+.footer-para h6{
+    margin-left: 20px;
+}
+.footer-para p{
+    font-size: 25px;
+    color: #999;
+    font-style: italic;
+    line-height: 25px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+    
+}
+
+/* ..................................End-footer................................. */
+
+.end-footer{
+    background-color: #d7dedc;
+
+}
+
+.end-footer ul{
+    margin: 40px 0 40px;
+    font-size: 18px;
+}
+
+.mt-40{
+    margin-top: 40px;
+}
+
+.un-list li{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 40px;
+   
+}
+
+.unOrderList a{
+    border-left: 4px solid #666;
+    padding-left: 20px;
+   font-size: 30px;
+   
+}
+
+.lists {
+    border-left: 4px solid #666;
+    padding-left: 20px;
+   font-size: 30px;
+   
+}
